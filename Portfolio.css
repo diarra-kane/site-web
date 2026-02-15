@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-top: 20px;
+}
+.logo img{
+    width: 200px;
+    height: 100px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:indianred;
+    background-color:mistyrose;
+    padding: 5px;
+    border-radius: 10px;
+}
+li a:hover {
+    background-color: white;
+    color:cadetblue;
+}
+/*FIN HEADER*/
+/* A PROPOS*/
+.container img{
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0px 0px 30px 20px rgb(66, 60, 45) ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.container p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+section h1{
+    text-align: center;
+    text-decoration: underline;
+    background: radial-gradient(lightgrey, khaki);
+}
+/*DEBUT COMPETENCE*/
+.item{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+.max{
+    width: 200px;
+    background-color: gray;
+    height: 20px;
+    border-radius: 10px;
+}
+.min{
+    width: 200px;
+    background-color: gray;
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur{
+    width: 95%;
+    height: 20px;
+    background-color: maroon;
+    border-radius: 10px;
+   
+}
+.valeur1{
+    width: 60%;
+    height: 20px;
+    background-color: blue;
+    border-radius: 10px;
+    
+}
+.valeur2{
+    width: 30%;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+   
+}
+.reseau img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-left: 90px;
+    margin: left;
+    
+}
+.formulaire{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50%;
+    align-items: center;
+    margin-top: -270px;
+    margin-right: 90px;
+    
+    
+}footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+label{
+   font-weight: bolder;
+   color: rgb(76, 48, 3);
+}
+.reseau span{
+    margin-left: 90px;
+    margin: left;
+}
+.hero{
+      box-shadow: 0px 0px 30px 10px rgb(66, 60, 45) ;
+      border-radius: 10%;
+      width: 400px;
+      margin-left: 10px;
+}
+button{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
